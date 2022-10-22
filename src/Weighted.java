@@ -85,8 +85,8 @@ public class Weighted {
         student.setTotalPoint(totalInput);
         student.setEarnedPoint(earnedInput);
         student.setAssPercent(percentInput);
-        Double[] percent = new Double[8];
-        Double[] grade = new Double[8];
+        Double[] percent = new Double[totalInput.length];
+        Double[] grade = new Double[totalInput.length];
 
         //Calculate final result using getter in Point class
         System.out.println("\nWeighted grade:");
